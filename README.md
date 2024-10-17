@@ -1,7 +1,7 @@
 # Cityscape Runner
  
 ## 🔴 About This Project
-<p align="justify">CyberShield was originally developed as a submission for the Indie Game Ignite (IGI) Showcase and the GameToday Indie Game Competition, but we decided to expand the game even after the competition to further explore its potential. </p>
+<!-- <p align="justify">CyberShield was originally developed as a submission for the Indie Game Ignite (IGI) Showcase and the GameToday Indie Game Competition, but we decided to expand the game even after the competition to further explore its potential. </p> -->
 
 <br>
 
@@ -9,32 +9,29 @@
 
 | **Role** | **Team Size** | **Development Time** | **Engine** |
 |:-|:-|:-|:-|
-| Game Programmer | 3 | 2 months | Unity 2022|
+| Game Programmer | 3 | 2 weeks | Unity 2022|
 
 <br>
 
 ## 👤 Meet the Team
-- Michael Ardisa (Lead Programmer)
-- Allan Alexander Matthew (Designer)
-- Nicholas Diporedjo (3D Artist)
+- Michael Ardisa (Programmer)
+- Steven Putra Adicandra (Designer)
+- Duns Scotus Aerotri Tunyanan (3D Artist)
 
 <br>
 
 ## ♦️About Game
-<p align="justify">CyberShield is an isometric top-down action RPG where players can battle a variety of cyber threats like malware, trojans, and other digital dangers in the computer world. The game introduces a unique gameplay experience by fusing cybersecurity concepts with fast-paced action mechanics.</p>
+<!-- <p align="justify">CyberShield is an isometric top-down action RPG where players can battle a variety of cyber threats like malware, trojans, and other digital dangers in the computer world. The game introduces a unique gameplay experience by fusing cybersecurity concepts with fast-paced action mechanics.</p> -->
 
 <br>
 
 ## 🎮 Gameplay
-<p align="justify">Players engage in intense combat, dodging and countering threats using weapons like machete, katana, and hammer. As they progress, they will face tougher enemies and adapt to new challenges. The game currently features 2 levels, and we plan to add more in future updates.</p>
+<!-- <p align="justify">Players engage in intense combat, dodging and countering threats using weapons like machete, katana, and hammer. As they progress, they will face tougher enemies and adapt to new challenges. The game currently features 2 levels, and we plan to add more in future updates.</p> -->
 
 <br>
 
 ## ⚙️ Game Mechanics I Created
-### Dash Mechanic
-
-![dashMechanic (1)](https://github.com/user-attachments/assets/13778158-761b-4779-a85f-76f97022ce22)
-
+<!-- ### Dash Mechanic
 <p align="justify">The dash mechanic in this game works by increasing the player's velocity, allowing them to change direction mid-dash rather than being locked into a straight line. The visual impact of the dash is enhanced by a trail effect, created using the Trail Renderer component. To make the dash feel smoother, the trail time is gradually reduced through a coroutine when the dash ends, giving the trail a retracting effect.</p>
 
 ```
@@ -77,10 +74,6 @@ IEnumerator trailReduce()
 ```
 
 ### Scriptable Objects Utilization for Weapon Data
-
-![image](https://github.com/user-attachments/assets/bfc19472-e461-4053-bf48-082c41f49d29)
-![image](https://github.com/user-attachments/assets/645bd655-bc99-433d-ad02-e5bec9d51125)
-
 <p align="justify">Scriptable objects here are used to store key weapon data within the 'Resources' folder, providing a flexible way to manage and modify weapon attributes. This approach makes adding new weapons efficient and straightforward — simply create a new weapon asset file and adjust its data as needed.</p>
 
 ```
@@ -95,6 +88,7 @@ public class Weapon : ScriptableObject
     public float atkDelay;
 }
 ```
+-->
 
 <br>
 
