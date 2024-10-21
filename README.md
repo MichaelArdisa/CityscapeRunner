@@ -1,5 +1,9 @@
 # Cityscape Runner
- 
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d05f4cb6-6ad1-4cb8-9715-e9660b7f92c7" style="width: 600px;">
+</p>
+
 ## 🔴 About This Project
 <p align="justify">This project was developed as a way for me to know more about the first-person parkour genre. Throughout the process, I gained some valuable insights, including how to implement smooth first-person movement, utilize the character controller component, and create parkour mechanics that enhance the overall player experience.</p>
 
@@ -34,8 +38,13 @@
 
 <br>
 
-## ⚙️ Game Mechanics I Created
+## ⚙️ Game Mechanic I Created
 ### Dash Mechanic
+
+<p align="justify">
+  <img src="https://github.com/user-attachments/assets/b4abb473-9fe0-4009-8e0e-44d7626fe139" style="width: 50%;">
+  <img src="https://github.com/user-attachments/assets/7991090d-f9b9-4758-9226-afb802276f1f" style="width: 85%;">
+</p>
 
 - Logic is located within the `pMove.cs` script
 - The dash mechanic works by gradually increasing the player's motion.
