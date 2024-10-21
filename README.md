@@ -1,7 +1,7 @@
 # Cityscape Runner
  
 ## 🔴 About This Project
-<!-- <p align="justify">CyberShield was originally developed as a submission for the Indie Game Ignite (IGI) Showcase and the GameToday Indie Game Competition, but we decided to expand the game even after the competition to further explore its potential. </p> -->
+<p align="justify">This project was developed as a way for me to know more about the first-person parkour genre. Throughout the process, I gained some valuable insights, including how to implement smooth first-person movement, utilize the character controller component, and create parkour mechanics that enhance the overall player experience.</p>
 
 <br>
 
@@ -16,7 +16,8 @@
 <details>
   <summary> <b>My Contribution (Game programmer)</b> </summary>
   
-  - Core mechanics
+  - Core Mechanics
+  - Level Design
   - Bug Fixing
   
 </details>
@@ -24,74 +25,27 @@
 <br>
 
 ## ♦️About Game
-<!-- <p align="justify">CyberShield is an isometric top-down action RPG where players can battle a variety of cyber threats like malware, trojans, and other digital dangers in the computer world. The game introduces a unique gameplay experience by fusing cybersecurity concepts with fast-paced action mechanics.</p> -->
+<p align="justify">Cityscape Runner is an adrenaline-fueled parkour experience set in a futuristic urban landscape. Players are immersed in a world where mastering fast-paced movement is key to success, using a range of parkour techniques to navigate complex city environments.</p>
 
 <br>
 
 ## 🎮 Gameplay
-<!-- <p align="justify">Players engage in intense combat, dodging and countering threats using weapons like machete, katana, and hammer. As they progress, they will face tougher enemies and adapt to new challenges. The game currently features 2 levels, and we plan to add more in future updates.</p> -->
+<p align="justify">Cityscape Runner focuses on fluid movement mechanics like bunny hopping and dashing in 8 directions, allowing players to dynamically traverse the environment. The objective is to complete each level as quickly as possible, chaining together jumps, dashes, and leaps to shave off valuable seconds and achieve the fastest time.</p>
 
 <br>
 
 ## ⚙️ Game Mechanics I Created
-<!-- ### Dash Mechanic
-<p align="justify">The dash mechanic in this game works by increasing the player's velocity, allowing them to change direction mid-dash rather than being locked into a straight line. The visual impact of the dash is enhanced by a trail effect, created using the Trail Renderer component. To make the dash feel smoother, the trail time is gradually reduced through a coroutine when the dash ends, giving the trail a retracting effect.</p>
+### Dash Mechanic
 
-```
-void Update()
-{
-    ...        
-    // dash
-    if (Input.GetKeyDown(KeyCode.LeftShift) && !isDashing && !CD && activeScene.name != "MainMenu & Shop")
-    {
-        trail.enabled = true;
-        trail.time = 0.5f;
+- Logic is located within the `pMove.cs` script
+- The dash mechanic works by gradually increasing the player's motion.
+- It operates based on the normalized x and z axes.
+- The mechanic enables dashing in 8 directions: front, back, right, left, front-right, front-left, back-right, and back-left.
+- This allows for fluid and dynamic traversal, giving players the ability to dash in various directions during parkour sequences.
 
-        isDashing = true;
-        moveSpeed = moveSpeed * dashSpeed;
-        Invoke(nameof(dashReset), 0.2f);
-
-        CD = true;
-        Invoke(nameof(coolDown), dashCD + 0.2f);
-    }
-    ...
-}
-
-private void dashReset()
-{
-    moveSpeed = moveSpeed / dashSpeed;
-    isDashing = false;
-    StartCoroutine(trailReduce());
-}
-
-IEnumerator trailReduce()
-{
-    while (trail.time > 0)
-    {
-        trail.time = trail.time - 0.01f;
-        yield return new WaitForSeconds(0.01f);
-    }
-
-    trail.time = 0f;
-}
-```
-
+<!--
 ### Scriptable Objects Utilization for Weapon Data
-<p align="justify">Scriptable objects here are used to store key weapon data within the 'Resources' folder, providing a flexible way to manage and modify weapon attributes. This approach makes adding new weapons efficient and straightforward — simply create a new weapon asset file and adjust its data as needed.</p>
-
-```
-[CreateAssetMenu(fileName = "New Weapon", menuName = "Weapon")]
-public class Weapon : ScriptableObject
-{
-    public string weaponName;
-    public Vector3 atkPos;
-    public float atkRange;
-    public int atkDamage;
-    public float atkRate;
-    public float atkDelay;
-}
-```
--->
+<p align="justify">Scriptable objects here are used to store key weapon data within the 'Resources' folder, providing a flexible way to manage and modify weapon attributes. This approach makes adding new weapons efficient and straightforward — simply create a new weapon asset file and adjust its data as needed.</p> -->
 
 <br>
 
@@ -99,11 +53,8 @@ public class Weapon : ScriptableObject
 
 |  Script       | Description                                                  |
 | ------------------- | ------------------------------------------------------------ |
-| `Weapon.cs` | Scriptable object class used to determine which data needs to be stored. |
-| `EBehaviour.cs`  | Responsible for how the enemies behave around the player. |
-| `PMove.cs`  | Manages all isometric (skewed) player movements. |
-| `ECombat.cs`  | Manages the logic behind the enemies' combat. |
-| `PCombat.cs`  | Manages the logic behind the player's combat. |
+| `PMove.cs`  | Manages first person player movements. |
+| `MouseLook.cs`  | Manages the logic behind the enemies' combat. |
 | `etc`  |
 
 <br>
@@ -112,8 +63,8 @@ public class Weapon : ScriptableObject
 
 | **Key Binding** | **Function** |
 |:-|:-|
-| W, A, S, D | Basic movement |
-| L-Shift | Dash |
+| W,A,S,D | Basic movement |
+| W,A,S,D + L-Shift | Dash |
 
 <br>
 
