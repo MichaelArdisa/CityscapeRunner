@@ -7,16 +7,19 @@
 
 ## 📋 Project Info
 
-| **Role** | **Team Size** | **Development Time** | **Engine** |
-|:-|:-|:-|:-|
-| Game Programmer | 3 | 2 weeks | Unity 2022|
+<b> Developed with Unity 2022 </b>
 
-<br>
+| **Role** | **Name** | **Development Time** |
+| - | - | - |
+| Game Programmer | Michael Ardisa | 3 days |
 
-## 👤 Meet the Team
-- Michael Ardisa (Programmer)
-- Steven Putra Adicandra (Designer)
-- Duns Scotus Aerotri Tunyanan (3D Artist)
+<details>
+  <summary> <b>My Contribution (Game programmer)</b> </summary>
+  
+  - Core mechanics
+  - Bug Fixing
+  
+</details>
 
 <br>
 
@@ -110,7 +113,6 @@ public class Weapon : ScriptableObject
 | **Key Binding** | **Function** |
 |:-|:-|
 | W, A, S, D | Basic movement |
-| Left-Click | Attack |
 | L-Shift | Dash |
 
 <br>
