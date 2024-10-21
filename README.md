@@ -43,7 +43,7 @@
 
 <p align="justify">
   <img src="https://github.com/user-attachments/assets/b4abb473-9fe0-4009-8e0e-44d7626fe139" style="width: 50%;">
-  <img src="https://github.com/user-attachments/assets/7991090d-f9b9-4758-9226-afb802276f1f" style="width: 50%;">
+  <img src="https://github.com/user-attachments/assets/7991090d-f9b9-4758-9226-afb802276f1f" style="width: 70%;">
 </p>
 
 - Logic is located within the `pMove.cs` script
