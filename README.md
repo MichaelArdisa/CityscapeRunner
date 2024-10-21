@@ -53,7 +53,7 @@
 
 |  Script       | Description                                                  |
 | ------------------- | ------------------------------------------------------------ |
-| `PMove.cs`  | Manages first person player movements. |
+| `pMove.cs`  | Manages first person player movements. |
 | `MouseLook.cs`  | Manages the logic behind the enemies' combat. |
 | `etc`  |
 
@@ -70,4 +70,4 @@
 
 ## 💻 Setup
 
-This game is still in beta, a playable version will be available soon!
+This game is still a work in progress, a playable version will be available soon!
