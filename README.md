@@ -62,8 +62,8 @@
 
 |  Script       | Description                                                  |
 | ------------------- | ------------------------------------------------------------ |
-| `pMove.cs`  | Manages first person player movements. |
-| `MouseLook.cs`  | Manages the logic behind the enemies' combat. |
+| <a href="https://github.com/MichaelArdisa/CityscapeRunner/blob/main/Assets/Scripts/pMove.cs"> `pMove.cs` </a> | Manages first person player movements. |
+| <a href="https://github.com/MichaelArdisa/CityscapeRunner/blob/main/Assets/Scripts/MouseLook.cs"> `MouseLook.cs` </a> | Manages the logic behind the enemies' combat. |
 | `etc`  |
 
 <br>
